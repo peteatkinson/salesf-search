@@ -1,0 +1,5 @@
+export const STATUS_CODES = {
+  INTERNAL_SERVER_ERROR: 500,
+  BAD_REQUEST: 400,
+  OK: 200
+};
