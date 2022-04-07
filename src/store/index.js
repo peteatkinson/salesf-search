@@ -32,10 +32,9 @@ export default createStore({
       state.isError = false;
       state.products = [...products.data.products];
     },
-    ["STORE_FAILURE"]: (state, query) => {
+    ["STORE_FAILURE"]: (state) => {
       state.isPending = false;
       state.isError = true;
-      state.query = query;
     },
   },
   actions: {
