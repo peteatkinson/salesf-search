@@ -7,7 +7,7 @@
         name="input"
         placeholder="Search for Armani, Gucci, Baume &amp; Mercier..."
         type="text"
-        @keydown="handler"
+        @keyup="handler"
       />
     </div>
   </div>
