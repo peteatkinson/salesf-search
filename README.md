@@ -1,6 +1,8 @@
-# salesfire
+# Salesfire Search
 
 ## Project setup
+
+Commands usage:
 ```
 yarn install
 ```
@@ -20,5 +22,13 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Tests
+```
+yarn test
+```
+
+## Improvemnets if I'd have went another day
+- Could have had better code coverage on Unit tests, but hey-ho.
+- If I'd had the time I'd have added pagination (easily enough). 
+- Probably could have added support for responsive-design.
+
